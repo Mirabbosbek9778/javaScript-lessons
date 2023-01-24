@@ -97,3 +97,26 @@
 // let b = 10;
 
 // console.log(a / +b);
+// console.log(1);
+
+///////////////////////////////////
+
+// let a = "1";
+
+// console.log(typeof a);
+
+let temp = 1;
+
+// if (true) {
+//   console.log("svet yoniq");
+// }
+// if (false) {
+//   console.log("svet o'chiq");
+// }
+if (temp) {
+    console.log("svet yoniq");
+  }
+  if (true) {
+    console.log("svet o'chiq");
+  }
+  
