@@ -40,14 +40,47 @@
 
 ////////////////////
 
-function getAvr() {
-  console.log(`Mirabbos`);
-  console.log(`Mirabbos`);
-  console.log(`Mirabbos`);
-  console.log(`Mirabbos`);
-  console.log(`Mirabbos`);
-  console.log(`Mirabbos`);
-  console.log(`--------------------------------`);
-}
+// function getAvr() {
+//   console.log(`Mirabbos`);
+//   console.log(`Mirabbos`);
+//   console.log(`Mirabbos`);
+//   console.log(`Mirabbos`);
+//   console.log(`Mirabbos`);
+//   console.log(`Mirabbos`);
+//   console.log(`--------------------------------`);
+// }
+// // getAvr();
+// // getAvr();
+
+/////////////////////
+// console.log(id);//not definded chiqadi
+
+// let id = 1;
+
+// console.log(id);
+
+// function getAvr() {
+//   console.log("Mirabbosbek Abduvohidov study in Webbrain Academy");
+// }
 // getAvr();
-// getAvr();
+
+// getAvr(); <----error beradi
+
+// const getAvr=function(){
+//   console.log("Mirabbosbek Abduvohidov study in Webbrain Academy");
+
+// }
+// getAvr();  //bu korinishda chaqirish
+
+// const getAvr=()=>{}
+
+// let name='mirabbos'
+
+const getAvr = function (name) {
+  // console.log(name);
+  console.log(`${name} , Mirabbosbek Abduvohidov study in Webbrain Academy`);
+};
+getAvr("hello world"); //function col deydi
+getAvr("hello world"); //function col deydi
+getAvr("hello world"); //function col deydi
+getAvr("hello world"); //function col deydi
