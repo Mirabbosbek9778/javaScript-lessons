@@ -171,8 +171,7 @@
 //   return temp;
 // };
 
-// console.log(gpa(5, 3, 3, 2));  ///3.25 chiqadi 
-
+// console.log(gpa(5, 3, 3, 2));  ///3.25 chiqadi
 
 /////////////get+
 
@@ -182,4 +181,4 @@
 //   return temp;
 // };
 
-// console.log(getGpa(5, 3, 3, 2));  ///3.25 chiqadi 
+// console.log(getGpa(5, 3, 3, 2));  ///3.25 chiqadi
