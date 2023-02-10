@@ -19,13 +19,17 @@ let students = [
   { id: 8, year: 1999, name: "Ulugov Ulugbek" },
 ];
 
-console.log(
-  num.find((value) => {
-    return value === 34;
-  })
-);
+let res = students.findIndex((value) => {
+  return value.id === 4;
+});
 
-// console.log(res);
+console.log(res); ///yilini chiqaryapti
+
+// console.log(
+//   students.find((value) => {
+//     return value.id === 5;
+//   })
+// );
 
 // let res = students.sort((a, b) => a.name.localeCompare(b.name)); ///alfavit tartibda
 // let res = str.sort((a, b) => a.localeCompare(b));
