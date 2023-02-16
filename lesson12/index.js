@@ -11,19 +11,39 @@ let students = [
   { id: 8, year: 1999, name: "Ulugov Ulugbek" },
 ];
 ///crud
-
-/////update qilish
-
-const updateUSer = (data) => {
-  let res = students.map((value) =>
-    value.id === data.id ? { ...value } : value
+const getFiltrByName = (key) => {
+  let res = students.filter((value) =>
+    value.name.toLowerCase().includes(key.toLowerCase())
   );
   students = res;
 };
+const getFiltrByID = (key) => {
+  let res = students.filter((value) => value.id === key);
+  students = res;
+};
 
-updateUSer({ id: 2, type: "Name", value: "shakarjon" });
-
+const getFiltr = ({ key, value }) => {
+  let res = students.filter((user) =>
+    `${user[key]}`.toLowerCase().includes(`${value}`.toLowerCase())
+  );
+  students = res;
+};
+// getFiltrByName("Rahmatillo");
+// getFiltrByID('2')
+getFiltr({ value: 3, key: "id" });
+// getFiltr({ value: "Mirabbosbek", key: "name" });
 console.log(students);
+
+/////update qilish
+
+// const updateUSer = (data) => {
+//   let res = students.map((value) =>
+//     value.id === data.id ? { ...value, [data.type]:data.value } : value
+//   );
+//   students = res;
+// };
+
+// updateUSer({ id: 2, type: "name", value: "shakarjon" });
 
 /////////////////////add qoshish bunda///////////////
 // const addUser = (user) => {
